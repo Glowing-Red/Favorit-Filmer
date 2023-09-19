@@ -4,7 +4,7 @@ const reviews = [
     { title: "Jurassic Park III", href: "Filmer/Jurassic Park III.html", image: "Assets/Filmer/Jurassic Park III/Cover.jpg" }
 ];
 
-const reviewContainer = document.getElementById("reviews");
+const reviewContainer = document.getElementById("Reviews Container");
 
 reviews.forEach(review => {
     const div = document.createElement("div");
